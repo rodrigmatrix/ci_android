@@ -21,6 +21,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    task wrapper(type: Wrapper) {
+        gradleVersion = '4.1'
+    }
 }
 
 dependencies {
