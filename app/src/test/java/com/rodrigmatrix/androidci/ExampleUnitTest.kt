@@ -6,10 +6,10 @@ import org.junit.Assert.*
 
 class AppUnitTests {
 
-//    @Test
-//    fun twoPlusTwoEqualsFive() {
-//        assertEquals(5, 2 + 2)
-//    }
+    @Test
+    fun twoPlusTwoEqualsFive() {
+        assertEquals(5, 2 + 2)
+    }
 
     @Test
     fun successfulTest(){
